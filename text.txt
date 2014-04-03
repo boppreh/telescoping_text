@@ -1,6 +1,15 @@
+<h1>[1:Chomsky]</h2>
+
 [a:Chomsky], [b:o gnomo], [c:é um mago].
 
 ---
+1: [2:História de Chomsky]
+2: A história [3:de Chomsky Greibach]
+3: do mago [4:Chomsky Greibach]
+4: Chomsky Greibach, [5:de Whistledown]
+5: o [6:gnomo] de Whistledown
+6: gnomo renegado
+
 a: Chomsky Greibach
 b: o gnomo da cidade de Whistledown
 c: é um mago da escola de Conjuração
