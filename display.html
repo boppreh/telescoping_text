@@ -51,7 +51,7 @@
 				expression = line.slice(0, sepIndex),
 				url = line.slice(sepIndex + 2);
 			
-			htmlText = htmlText.replace(new RegExp('\\b' + expression + '\\b', 'g'), '<a href="' + url + '">' + expression + '</a>')
+			htmlText = htmlText.replace(new RegExp('\\b(' + expression + ')\\b', 'ig'), '<a href="' + url + '">$1</a>')
 		}
 		
 		var parts = htmlText.split('---'),
@@ -74,7 +74,6 @@
     	var elements = document.getElementsByClassName('tele');
         for(var i = 0; i < elements.length; i++) {
         	var element = elements[i];
-        	console.log(element);
         	element.onclick = function (event) {
         		var element = event.target;
         		element.outerHTML = replacements[element.id];
