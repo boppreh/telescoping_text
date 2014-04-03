@@ -44,20 +44,27 @@
 
 		document.getElementById('content_element').innerHTML = content;
 
-		var replacementsRegex = /(\w+):\s*(.+)/g,
-			replacements = {};
+		var replacementsRegex = /(\w+):\s*(.+)/g;
+
+		// Global.
+		replacements = {};
 
 		while (match = replacementsRegex.exec(replacementsText)) {
 			replacements[match[1]] = match[2];
 		}
 
-		var elements = document.getElementsByClassName('tele');
+		updateListeners();
+    }
+
+    function updateListeners() {
+    	var elements = document.getElementsByClassName('tele');
         for(var i = 0; i < elements.length; i++) {
         	var element = elements[i];
         	console.log(element);
         	element.onclick = function (event) {
         		var element = event.target;
         		element.outerHTML = replacements[element.id];
+        		updateListeners();
         		console.log(element);
         	}
         }
