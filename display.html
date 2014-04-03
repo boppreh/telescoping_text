@@ -13,6 +13,13 @@
 
         	cursor: pointer;
         }
+
+        .tele a {
+		   pointer-events: none;
+		   cursor: default;
+		   color: inherit;
+		   text-decoration: none;
+        }
         </style>
 	</head>
 
@@ -47,10 +54,10 @@
 			if (line.match(/^\s*$/))
 				continue;
 			
-			var	sepIndex = line.indexOf(': '),
-				expression = line.slice(0, sepIndex),
-				url = line.slice(sepIndex + 2);
-			
+			var	match = line.match(/(\w+):\s*(.+)/),
+				expression = match[1],
+				url = match[2];
+				
 			htmlText = htmlText.replace(new RegExp('\\b(' + expression + ')\\b', 'ig'), '<a href="' + url + '">$1</a>')
 		}
 		
