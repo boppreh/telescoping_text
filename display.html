@@ -4,16 +4,37 @@
 		<meta charset="utf-8">
 		<title>Chomsky, o gnomo, é um mago</title>
         <link rel="stylesheet" href="style.css">
+
+        <style>
+        span {
+        	background-color: #EFFFBB;
+        	border-radius: 5px;
+        	padding: 4px 4px;
+
+        	cursor: pointer;
+        }
+        </style>
 	</head>
 
     <body>
 		<article>
-			<section id="content">
+			<section id="content_element">
 			</section>
 		</article>
     </body>
 
     <script>
-    document.getElementById('content').innerHTML = "<b>Test</b>"
+    var client = new XMLHttpRequest();
+	client.open('GET', 'text.txt');
+	client.onreadystatechange = function() {
+		var text = client.responseText,
+			parts = text.split('---'),
+			content = parts[0],
+			replacements = parts[1];
+		content = content.replace(/\[\w+:/g, '<span id="\1">')
+		content = content.replace(/\]/g, '</span>')
+		document.getElementById('content_element').innerHTML = content;
+	}
+	client.send();
     </script>
 </html>

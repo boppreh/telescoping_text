@@ -1,5 +1,6 @@
-O (a:Chomsky), (b:o gnomo), (c:é um mago).
+[a:Chomsky], [b:o gnomo], [c:é um mago].
 
+---
 a: Chomsky Greibach
 b: o gnomo da cidade de Whistledown
 c: é um mago da escola de Conjuração
