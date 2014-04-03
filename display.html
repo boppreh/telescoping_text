@@ -38,17 +38,31 @@
 
     function display(text) {
     	var htmlText = text.replace(/\[(\w+):/g, '<span class="tele" id="$1">').replace(/\]/g, '</span>'),
-    		parts = htmlText.split('---'),
+    		links = htmlText.split('---')[2],
+			
+
+		linksLines = links.split('\n');
+		for (var i = 0; i < linksLines.length; i++) {
+			var line = linksLines[i];
+			if (line.match(/^\s*$/))
+				continue;
+			
+			var	sepIndex = line.indexOf(': '),
+				expression = line.slice(0, sepIndex),
+				url = line.slice(sepIndex + 2);
+			
+			htmlText = htmlText.replace(new RegExp('\\b' + expression + '\\b', 'g'), '<a href="' + url + '">' + expression + '</a>')
+		}
+		
+		var parts = htmlText.split('---'),
 			content = parts[0],
 			replacementsText = parts[1];
-
 		document.getElementById('content_element').innerHTML = content;
 
-		var replacementsRegex = /(\w+):\s*(.+)/g;
 
 		// Global.
 		replacements = {};
-
+		var replacementsRegex = /(\w+):\s*(.+)/g;
 		while (match = replacementsRegex.exec(replacementsText)) {
 			replacements[match[1]] = match[2];
 		}
@@ -65,7 +79,6 @@
         		var element = event.target;
         		element.outerHTML = replacements[element.id];
         		updateListeners();
-        		console.log(element);
         	}
         }
     }

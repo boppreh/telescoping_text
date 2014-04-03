@@ -13,3 +13,5 @@
 a: Chomsky Greibach
 b: o gnomo da cidade de Whistledown
 c: é um mago da escola de Conjuração
+---
+Whistledown: http://pathfinderwiki.com/wiki/Whistledown
