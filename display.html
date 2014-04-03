@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="style.css">
 
         <style>
-        span {
+        .tele {
         	background-color: #EFFFBB;
         	border-radius: 5px;
         	padding: 4px 4px;
@@ -24,17 +24,46 @@
     </body>
 
     <script>
-    var client = new XMLHttpRequest();
-	client.open('GET', 'text.txt');
-	client.onreadystatechange = function() {
-		var text = client.responseText,
-			parts = text.split('---'),
+    function loadText() {
+    	var client = new XMLHttpRequest();
+		client.open('GET', 'text.txt');
+		client.onreadystatechange = function() {
+			if (client.readyState != client.DONE)
+				return;
+
+			display(client.responseText);
+		}
+		client.send();
+    }
+
+    function display(text) {
+    	var htmlText = text.replace(/\[(\w+):/g, '<span class="tele" id="$1">').replace(/\]/g, '</span>'),
+    		parts = htmlText.split('---'),
 			content = parts[0],
-			replacements = parts[1];
-		content = content.replace(/\[\w+:/g, '<span id="\1">')
-		content = content.replace(/\]/g, '</span>')
+			replacementsText = parts[1];
+
 		document.getElementById('content_element').innerHTML = content;
-	}
-	client.send();
+
+		var replacementsRegex = /(\w+):\s*(.+)/g,
+			replacements = {};
+
+		while (match = replacementsRegex.exec(replacementsText)) {
+			replacements[match[1]] = match[2];
+		}
+
+		var elements = document.getElementsByClassName('tele');
+        for(var i = 0; i < elements.length; i++) {
+        	var element = elements[i];
+        	console.log(element);
+        	element.onclick = function (event) {
+        		var element = event.target;
+        		element.outerHTML = replacements[element.id];
+        		console.log(element);
+        	}
+        }
+    }
+            
+    
+    loadText();
     </script>
 </html>
