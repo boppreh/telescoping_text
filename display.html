@@ -62,7 +62,7 @@
 			if (line.match(/^\s*$/))
 				continue;
 			
-			var	match = line.match(/(\w+):\s*(.+)/),
+			var	match = line.match(/([^:]+):\s*(.+)/),
 				expression = match[1],
 				url = match[2];
 			htmlText = htmlText.replace(new RegExp('\\b(' + expression + ')\\b', 'ig'), '<a href="' + url + '">$1</a>')
