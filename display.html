@@ -14,10 +14,14 @@
         	cursor: pointer;
         }
 
+        a {
+        	color: inherit !important;
+        	font-weight: normal !important;
+        }
+
         .tele a {
 		   pointer-events: none;
 		   cursor: default;
-		   color: inherit;
 		   text-decoration: none;
         }
         </style>
@@ -31,7 +35,7 @@
 				</p>
 			</section>
 			<br>
-			<button onclick="expandAll()">Expand all</button>
+			<button onclick="expandOnce()">Expand once</button>
 		</article>
 		<footer>
 			Text and code by <a href="boppreh.com">BoppreH</a>, interface idea by <a href="http://www.telescopictext.com/">Joe Davis</a>.
@@ -96,7 +100,7 @@
         }
     }
 
-    function expandAll() {
+    function expandOnce() {
     	var elements = document.getElementsByClassName('tele');
         for(var i = 0; i < elements.length; i++) {
         	var element = elements[i];
