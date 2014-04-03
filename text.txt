@@ -3,12 +3,12 @@
 [a:Chomsky], [b:o gnomo], [c:é um mago].
 
 ---
-1: [2:História de Chomsky]
-2: A história [3:de Chomsky Greibach]
-3: do mago [4:Chomsky Greibach]
+1: [2:A História de Chomsky]
+2: A História [3:de Chomsky Greibach]
+3: do Mago [4:Chomsky Greibach]
 4: Chomsky Greibach, [5:de Whistledown]
-5: o [6:gnomo] de Whistledown
-6: gnomo renegado
+5: o [6:Gnomo] de Whistledown
+6: Gnomo Renegado
 
 a: Chomsky Greibach
 b: o gnomo da cidade de Whistledown
@@ -16,3 +16,6 @@ c: é um mago da escola de Conjuração
 ---
 Whistledown: http://pathfinderwiki.com/wiki/Whistledown
 Gnomo: http://paizo.com/pathfinderRPG/prd/advancedRaceGuide/coreRaces/gnomes.html
+Mago: http://paizo.com/prd/classes/wizard.html
+Escola: http://paizo.com/prd/classes/wizard.html#arcane-school
+Conjuração: http://paizo.com/pathfinderRPG/prd/magic.html#_conjuration

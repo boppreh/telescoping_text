@@ -25,8 +25,13 @@
 
     <body>
 		<article>
-			<section id="content_element">
+			<section>
+				<p id="content_element">
+					
+				</p>
 			</section>
+			<br>
+			<button onclick="expandAll()">Expand all</button>
 		</article>
 		<footer>
 			Text and code by <a href="boppreh.com">BoppreH</a>, interface idea by <a href="http://www.telescopictext.com/">Joe Davis</a>.
@@ -60,7 +65,6 @@
 			var	match = line.match(/(\w+):\s*(.+)/),
 				expression = match[1],
 				url = match[2];
-
 			htmlText = htmlText.replace(new RegExp('\\b(' + expression + ')\\b', 'ig'), '<a href="' + url + '">$1</a>')
 		}
 		
@@ -89,6 +93,15 @@
         		element.outerHTML = replacements[element.id];
         		updateListeners();
         	}
+        }
+    }
+
+    function expandAll() {
+    	var elements = document.getElementsByClassName('tele');
+        for(var i = 0; i < elements.length; i++) {
+        	var element = elements[i];
+        	console.log(element);
+        	element.onclick({'target': element});
         }
     }
             
