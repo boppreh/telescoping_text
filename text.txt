@@ -1,7 +1,18 @@
 <h1>[1:Chomsky]</h2>
 
-[a:Chomsky], [b:o gnomo], [c:é um mago].
+<p>Todo gnomo possui vários nomes. Esses nomes são dados pela família, amigos, comunidade, ou adotados por capricho. Este é conhecido entre os humanos como Chosmky Greibach. Os amigos o chamam de Felix Bignoodle, Hands Magee, Nibbles [a:T.] McGibbles, Dimble Mocklaw e Fenthwick Fizzlebang. Cada nome possui uma longa história, e ele adora contá-las. Não pergunte se não tiver tempo de sobra.</p>
 
+<p>Chomsky é natural de Whistledown. A cidade fica no sul de Varisia, na ligação do lago Syrantula e o rio Yondabakari. Ela é lar para humanos e gnomos, que vivem pacificamente. Seus instrumentos musicais são famosos, alguns por sua alta qualidade, e outros por suas características intrigantes. Embora fique entre Korvosa e Magnimar, Whistledown não é afiliada com nenhuma das duas cidades.</p>
+
+<p>Chomsky nasceu em 23 de Sarenith de 4643 AR, filho de Arv Jalligrub. Sua mãe era dona da estalagem A Taça Azul. Sua família não era rica, mas os lucros da estalagem permitiram que seu pai Rondo Dimbuckle se tornasse um estudioso do reino arcano. Desde criança Chomsky era fascinado pelo assunto, brincando de ventriloquismo ou colorindo o gato da família.</p>
+
+<p>Chomsky era vítima de algumas brincadeiras por outros gnomos. Ele sempre foi fraco, mesmo para o padrão dos gnomos, mas ele aprendeu a usar a magia para não se machucar. Enquanto a maioria dos seus colegas produziam armas ou poções em seu tempo livre, ele preferia estudar o reino arcano.</p>
+
+<p>Após muitos anos de estudo Chomsky se tornou um legítimo mago arcano. A escola de conjuração era sua paixão. Ele a usava para criar colheres para seu café, arrumar a caneca quebrada e reposicionar objetos na casa; engraixar o chão sob aqueles que o atacavam, ou até contra atacar com esferas de ácido; ou criar fantasmas para assustar os incautos.</p>
+
+<p>Em 4682 AR Chomsky passou meses preparando o que ele considerava a maior pegadinha da história. Os residentes de Whistledown, especialmente os humanos, o expulsaram pelo incidente. Chomsky utilizou a oportunidade para conhecer o mundo e estudar novas línguas e magias. Seus pais lhe deram uma moeda de prata especial como lembrança, e Chomsky partiu para conhecer os segredos de Varisia.<p>
+
+<p>Chomsky passou por mau bocados na estrada. Sua baixa estatura </p>
 ---
 1: [2:A História de Chomsky]
 2: A História [3:de Chomsky Greibach]
@@ -10,12 +21,50 @@
 5: o [6:Gnomo] de Whistledown
 6: Gnomo Renegado
 
-a: Chomsky Greibach
-b: o gnomo da cidade de Whistledown
-c: é um mago da escola de Conjuração
+a: Tibbles
+
 ---
+Varisia: http://pathfinderwiki.com/wiki/Varisia
 Whistledown: http://pathfinderwiki.com/wiki/Whistledown
+Korvosa: http://pathfinderwiki.com/wiki/Korvosa
+Magnimar: http://pathfinderwiki.com/wiki/Magnimar
 Gnomo: http://paizo.com/pathfinderRPG/prd/advancedRaceGuide/coreRaces/gnomes.html
 Mago: http://paizo.com/prd/classes/wizard.html
 Escola: http://paizo.com/prd/classes/wizard.html#arcane-school
 Conjuração: http://paizo.com/pathfinderRPG/prd/magic.html#_conjuration
+
+colegas produziam armas ou poções: http://paizo.com/pathfinderRPG/prd/advancedRaceGuide/coreRaces/gnomes.html#obsessive
+
+ele preferia estudar o reino arcano: http://paizo.com/pathfinderRPG/prd/advancedRaceGuide/coreRaces/gnomes.html#academician
+
+brincando de ventriloquismo ou colorindo o gato da família: http://paizo.com/pathfinderRPG/prd/advancedRaceGuide/coreRaces/gnomes.html#gnome-magic
+
+sempre foi fraco: http://paizo.com/prd/gettingStarted.html#strength
+
+padrão dos gnomos: http://paizo.com/pathfinderRPG/prd/advancedRaceGuide/coreRaces/gnomes.html#gnome-racial-traits
+
+usar a magia para não se machucar: http://paizo.com/pathfinderRPG/prd/classes.html#_favored-class
+
+vítima de algumas brincadeiras: http://paizo.com/pathfinderRPG/prd/advancedRaceGuide/coreRaces/gnomes.html#gnome-racial-traits
+
+esferas de ácido: http://paizo.com/prd/spells/acidSplash.html
+
+engraixar o chão: http://paizo.com/prd/spells/grease.html
+
+criar colheres: http://paizo.com/prd/spells/prestigidation.html
+arrumar a caneca quebrada: http://paizo.com/prd/spells/mending.html
+reposicionar objetos na casa: http://paizo.com/prd/spells/prestigidation.html
+
+criar fantasmas: http://paizo.com/prd/spells/silentImage.html
+
+conhecer os segredos: http://paizo.com/pathfinderRPG/prd/advanced/advancedNewRules.html#_outlander
+---
+Anotações livres:
+
+dex
+
+crossbow
+linguistics
+familiar/edgar
+teleportation focus
+oppostion schools: abjuration, necromancy
