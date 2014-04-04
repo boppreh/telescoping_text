@@ -54,7 +54,7 @@
 
     function display(text) {
     	var htmlText = text.replace(/\[(\w+):/g, '<span class="tele" id="$1">').replace(/\]/g, '</span>'),
-    		links = htmlText.split('---')[2],
+    		links = htmlText.split('-----')[2],
 			
 
 		linksLines = links.split('\n');
@@ -63,13 +63,15 @@
 			if (line.match(/^\s*$/))
 				continue;
 			
-			var	match = line.match(/([^:]+):\s*(.+)/),
+			var	match = line.match(/^([^:]+?):\s*(.+)$/),
 				expression = match[1],
 				url = match[2];
-			htmlText = htmlText.replace(new RegExp('\\b(' + expression + ')\\b', 'ig'), '<a href="' + url + '">$1</a>')
+            
+			htmlText = htmlText.replace(new RegExp('(' + expression + 's?)', 'ig'),
+                                        '<a href="' + url + '">$1</a>')
 		}
 		
-		var parts = htmlText.split('---'),
+		var parts = htmlText.split('-----'),
 			content = parts[0],
 			replacementsText = parts[1];
 		document.getElementById('content_element').innerHTML = content;

@@ -8,12 +8,18 @@
 
 <p>Chomsky era vítima de algumas brincadeiras por outros gnomos. Ele sempre foi fraco, mesmo para o padrão dos gnomos, mas ele aprendeu a usar a magia para não se machucar. Enquanto a maioria dos seus colegas produziam armas ou poções em seu tempo livre, ele preferia estudar o reino arcano.</p>
 
-<p>Após muitos anos de estudo Chomsky se tornou um legítimo mago arcano. A escola de conjuração era sua paixão. Ele a usava para criar colheres para seu café, arrumar a caneca quebrada e reposicionar objetos na casa; engraixar o chão sob aqueles que o atacavam, ou até contra atacar com esferas de ácido; ou criar fantasmas para assustar os incautos.</p>
+<p>Após muitos anos de estudo Chomsky se tornou um legítimo mago arcano. A escola de conjuração era sua paixão. Ele usava magias para criar colheres para seu café, arrumar a caneca quebrada e reposicionar objetos na casa ou criar fantasmas para assustar os incautos.</p>
 
-<p>Em 4682 AR Chomsky passou meses preparando o que ele considerava a maior pegadinha da história. Os residentes de Whistledown, especialmente os humanos, o expulsaram pelo incidente. Chomsky utilizou a oportunidade para conhecer o mundo e estudar novas línguas e magias. Seus pais lhe deram uma moeda de prata especial como lembrança, e Chomsky partiu para conhecer os segredos de Varisia.<p>
+<p>Em 4682 AR Chomsky passou meses preparando o que ele considerava a maior pegadinha da história. Os residentes de Whistledown, especialmente os humanos, o expulsaram pelo incidente resultante. Seus pais lhe deram uma moeda de prata especial como lembrança, e Chomsky partiu para conhecer os segredos de Varisia. Arrasado, Chomsky começou a explorar o continente para conhecer novas línguas e magias. Estudioso dedicado, ele já aprendeu diversas línguas.<p>
 
-<p>Chomsky passou por mau bocados na estrada. Sua baixa estatura </p>
----
+<p>Chomsky passou por mau bocados na estrada. Sua baixa estatura e força física o tornava alvo de bandidos e ele teve de aprender a se defender. Seus primeiros esforços foram em atordoar os oponentes. Quando isso não era o bastante, ele começou a contra-atacar: ácido e gelo eram suas armas, e mais tarde mísseis mágicos. O problema é que estes truques só funcionavam depois que ele era atacado; o objetivo era evitar os ataques completamente. Então Chomsky usou suas economias para comprar uma besta, e passava as tardes brincando de tiro ao alvo. A presença da arma e sua mira extraordinária foram suficientes para evitar a maioria dos ataques.</p>
+
+<p>Foi nessa época que Chomsky adotou Edgar, o corvo, ainda filhote. Os dois logos criaram uma amizado, que com o tempo se tornou um laço mágico. Edgar tem pavor de crianças, então quando estão em alguma cidade ele se esconde nas dobras da roupa ou na mochila de Chomsky. Orgulhoso, ele insiste que é mais inteligente que seu mestre. Chomsky acha isso hilário e o incentiva.</p>
+
+<p>A fascinação com transposição de objetos surgiu na estrada. Ele a usa desde as formas mais mundanas, como ajustar a posição do saco de dormir, até para fugir de bandidos. Em contra partida algumas escolas nunca o interessaram: necromancia o enoja, e ele nunca teve conflitos com outros magos para aprender abjurações.</p>
+
+<p>Recentemente Chomsky começou a estudar o antigo império Thassalão. Ele está viajando para Sandpoint a fim de desventar os segredos desde reino perdido. Chomsky está especialmente interessado no Grande Farol e os acontecimentos suspeitos na cidade...</p>
+-----
 1: [2:A História de Chomsky]
 2: A História [3:de Chomsky Greibach]
 3: do Mago [4:Chomsky Greibach]
@@ -23,8 +29,12 @@
 
 a: Tibbles
 
----
+-----
+Chomsky Greibach: chomsky.pdf
+Edgar: edgar.pdf
+
 Varisia: http://pathfinderwiki.com/wiki/Varisia
+Sandpoint: http://pathfinderwiki.com/wiki/Sandpoint
 Whistledown: http://pathfinderwiki.com/wiki/Whistledown
 Korvosa: http://pathfinderwiki.com/wiki/Korvosa
 Magnimar: http://pathfinderwiki.com/wiki/Magnimar
@@ -51,20 +61,43 @@ esferas de ácido: http://paizo.com/prd/spells/acidSplash.html
 
 engraixar o chão: http://paizo.com/prd/spells/grease.html
 
-criar colheres: http://paizo.com/prd/spells/prestigidation.html
+criar colheres: http://paizo.com/prd/spells/prestidigitation.html
 arrumar a caneca quebrada: http://paizo.com/prd/spells/mending.html
-reposicionar objetos na casa: http://paizo.com/prd/spells/prestigidation.html
+reposicionar objetos na casa: http://paizo.com/prd/spells/prestidigitation.html
 
 criar fantasmas: http://paizo.com/prd/spells/silentImage.html
 
 conhecer os segredos: http://paizo.com/pathfinderRPG/prd/advanced/advancedNewRules.html#_outlander
----
+
+conhecer novas línguas e magias: http://www.d20pfsrd.com/traits/campaign-traits/rise-of-the-runelords/outlander#TOC-Lore-Seeker
+
+diversas línguas: http://paizo.com/prd/skills/linguistics.html
+
+atordoar: http://paizo.com/prd/spells/daze.html
+
+ácido: http://paizo.com/prd/spells/acidSplash.html
+
+gelo: http://paizo.com/prd/spells/rayOfFrost.html
+
+mísseis mágicos: http://paizo.com/prd/spells/magicMissile.html
+
+corvo: http://paizo.com/prd/monsters/familiar.html#raven
+
+laço mágico: http://paizo.com/prd/classes/wizard.html#familiars
+
+besta: http://paizo.com/prd/equipment.html#table-6-4-weapons
+
+mira extraordinária: http://paizo.com/prd/gettingStarted.html#dexterity
+
+necromancia: http://paizo.com/prd/classes/wizard.html#necromancy-school
+
+abjurações: http://paizo.com/prd/classes/wizard.html#abjuration-school
+
+algumas escolas nunca o interessaram: http://paizo.com/prd/classes/wizard.html#arcane-school
+
+império Thassalão: http://pathfinderwiki.com/wiki/Thassilon
+
+fascinação com transposição de objetos: http://www.d20pfsrd.com/classes/core-classes/wizard/arcane-schools/paizo---arcane-schools/classic-arcane-schools/conjuration/teleportation
+-----
 Anotações livres:
 
-dex
-
-crossbow
-linguistics
-familiar/edgar
-teleportation focus
-oppostion schools: abjuration, necromancy
